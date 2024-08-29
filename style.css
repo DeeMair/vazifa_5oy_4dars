@@ -1,0 +1,28 @@
+/* style.css */
+QWidget {
+    background-color: #f0f0f0; /* Oynaning asosiy rangi */
+}
+
+QLabel {
+    color: #333; /* Matn rangi */
+    font-size: 16px; /* Matn o'lchami */
+    padding: 10px; /* Ichki masofa */
+}
+
+QPushButton {
+    background-color: #007bff; /* Tugma rangi */
+    color: white; /* Matn rangi */
+    padding: 10px 20px; /* Tugma kattaligi */
+    border: none; /* Tugma chetlarini olib tashlash */
+    border-radius: 5px; /* Tugma chetlarini dumaloq qilish */
+}
+
+QPushButton:hover {
+    background-color: #0056b3; /* Tugma ustida kursor bo'lsa rangi */
+}
+
+QLineEdit {
+    padding: 5px; /* Ichki masofa */
+    border: 1px solid #ccc; /* Qalinligi va rangi */
+    border-radius: 5px; /* Dumaloq chetlar */
+}

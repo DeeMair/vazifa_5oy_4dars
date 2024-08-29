@@ -1,0 +1,82 @@
+/* restoran.css */
+
+/* Umumiy oyna uslubi */
+QWidget {
+    background-color: #f8f9fa; /* Oyna fon rangini o‘zgartirdik */
+    font-family: Arial, sans-serif; /* Matn uchun font tanladik */
+}
+
+/* ScrollArea uchun uslublar */
+QScrollArea {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* Har bir qism uchun uslublar */
+QLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+}
+
+QCheckBox {
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+QPushButton {
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+QPushButton:hover {
+    background-color: #0056b3;
+}
+
+/* Rasmlar uchun uslublar */
+QLabel[image] {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Checkbox elementlari bilan birga rasmni joylash */
+QVBoxLayout > QLabel {
+    margin: 10px;
+    align: center;
+}
+
+/* Checkbox va rasm o‘rtasida bo‘shliq qo‘shish */
+QVBoxLayout > QCheckBox {
+    margin: 5px;
+}
+
+/* Qism nomlari va narxlar uchun uslublar */
+QCheckBox::indicator:checked {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+
+QCheckBox::indicator:unchecked {
+    border: 1px solid #ced4da;
+}
+
+QScrollArea > QWidget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+QScrollArea > QWidget > QLabel {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -1,0 +1,44 @@
+/* restoran.css */
+
+/* Umumiy oyna uslubi */
+QWidget {
+    background-color: #ffffff; /* Oyna fon rangini oq rangda saqlaymiz */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* Apple kabi fontlar */
+}
+
+/* Label va ComboBox uslublari */
+QLabel {
+    font-size: 16px;
+    color: #333333;
+    margin: 10px 0;
+}
+
+QComboBox {
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+}
+
+/* Tugma uslubi */
+QPushButton {
+    font-size: 16px;
+    background-color: #007aff; /* Apple rangida ko'k */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+QPushButton:hover {
+    background-color: #0051a8; /* Hover effekti uchun quyuqroq rang */
+}
+
+/* QMessageBox uchun qo'shimcha uslub */
+QMessageBox QLabel {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
