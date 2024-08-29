@@ -66,7 +66,7 @@ class RestaurantMenu(QMainWindow):
 
                 image_label = QLabel(self)
                 pixmap = QPixmap(self.images[item])
-                image_label.setPixmap(pixmap.scaled(100, 100, Qt.KeepAspectRatio))  # Hajmni sozlash
+                image_label.setPixmap(pixmap.scaled(100, 100, Qt.KeepAspectRatio))
                 checkbox_layout.addWidget(image_label)
 
                 self.scroll_layout.addLayout(checkbox_layout)
