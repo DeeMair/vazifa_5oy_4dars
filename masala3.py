@@ -32,7 +32,7 @@ class RestaurantMenu(QMainWindow):
             "Water": "restoran_pictures/water.jpg",
             "Tea": "restoran_pictures/tea.jpg",
             "Coffee": "restoran_pictures/coffee.jpg",
-            "Ice Cream": "restoran_pictures/ice_cream.jpg",
+            "Ice Cream": "restoran_pictures/ice cream.jpg",
             "Cake": "restoran_pictures/cake.jpg",
             "Pie": "restoran_pictures/pie.jpg",
             "Pudding": "restoran_pictures/pudding.jpg",
